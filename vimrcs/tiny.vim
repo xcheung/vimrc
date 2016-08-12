@@ -71,8 +71,9 @@ set novisualbell
 set t_vb=
 set tm=500
 
-" Return to last edit position when opening files (You want this!)
+" Return to last edit position when opening files
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
+" Highlihg spance at the end of line
 highlight ExtraWhitespace ctermbg=darkred guibg=#382424
 match ExtraWhitespace /\s\+$/
