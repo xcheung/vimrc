@@ -11,6 +11,6 @@ then
   mv ~/.vimrc ~/.vim_runtime/${TheTime}.vimrc
 fi
 #
-cat vimrcs/basic.vim > ~/.vimrc
+cat vimrcs/tiny.vim > ~/.vimrc
 #
 exit 0
